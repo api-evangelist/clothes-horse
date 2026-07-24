@@ -1,7 +1,26 @@
 aid: clothes-horse
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clothes-horse.png
 name: Clothes Horse
-description: Clothes Horse is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Clothes Horse was a New York-based, data-driven size-and-fit recommendation
+  company for online apparel shopping. It matched a shopper's body measurements and
+  brand preferences against retailers' actual garment measurements to recommend the
+  right size at the point of sale, sold to retailers as SaaS. The company merged with
+  Fits.me in December 2014 to form a virtual-fitting-room solutions provider, and no
+  longer operates as an independent entity. It exposed no public API, developer portal,
+  or documentation, and the clotheshor.se domain now resolves to an unrelated Swedish
+  fashion/lifestyle WordPress blog. Surfaced as a 500 Global portfolio lead; enrichment
+  found no live API surface.
 url: https://raw.githubusercontent.com/api-evangelist/clothes-horse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,25 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired/merged into Fits.me in December 2014; no independent operations
+  and no live API surface as of enrichment.
+x-acquired-by: fits-me
+x-acquired-date: '2014-12'
+x-domain-note: clotheshor.se now serves an unrelated Swedish fashion/lifestyle blog,
+  not the original company.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fashion
+- Apparel
+- Retail
+- E-commerce
+- Size and Fit
+- Recommendations
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,8 @@ maintainers:
 common:
 - type: Website
   url: https://clotheshor.se
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
