@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/clothes-horse/integrations
+- https://n8n.io/integrations/clothes-horse/
+- https://composio.dev/toolkits/clothes-horse
+- https://monid.ai/tools/clothes-horse
+checked:
+- https://composio.dev/toolkits/clothes-horse
+- https://monid.ai/tools/clothes-horse
+- https://n8n.io/integrations/clothes-horse/
+- https://zapier.com/apps/clothes-horse/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
